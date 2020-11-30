@@ -6,7 +6,6 @@ import { pipeline, Transform } from 'stream'
 const pipelineAsync = promisify(pipeline)
 
 import csvtojson from 'csvtojson'
-import jsontocsv from 'json-to-csv-stream'
 
 import StreamConcat from 'stream-concat'
 
