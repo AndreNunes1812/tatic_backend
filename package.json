@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "type":"module" ,
+  "scripts": {
+    "startold": "node server.js",
+    "start": "DEBUG=app* node --harmony-top-level-await server.js"
+
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "nvm": "0.0.4",
+    "parquetjs": "^0.11.2",
+    "csvtojson": "^2.0.10",
+    "debug": "^4.1.1",
+    "json-to-csv-stream": "^1.1.0",
+    "stream-concat": "^0.3.0"
+
+  }
+}
